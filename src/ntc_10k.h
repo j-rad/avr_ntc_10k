@@ -40,15 +40,16 @@
 #ifndef NTC_10K_H_
 #define NTC_10k_H_
 
-#define VCC							5
-#define R1							(unsigned int)10000
+#define VCC                            5
+#define R1                            (unsigned int)10000
 
 #include <stdint.h>
 
-#define CHANNEL 					0
+#define CHANNEL                    0
 
 
 void init_adc(void);
+
 double get_temperature(void);
 
 #endif /* MEASUREMENTS_H_ */

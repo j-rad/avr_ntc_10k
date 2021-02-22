@@ -26,10 +26,12 @@
 
 
 #ifndef AD_H_
-	#define AD_H_
-	
-	void init_adc(void);
-	unsigned int adc_read(unsigned char channel);	
-	double voltage(unsigned char channel);
+#define AD_H_
+
+void init_adc(void);
+
+unsigned int adc_read(unsigned char channel);
+
+double voltage(unsigned char channel);
 
 #endif /* AD_H_ */
